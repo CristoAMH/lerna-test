@@ -1,6 +1,6 @@
 {
   "name": "mySecondPackage",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
   "keywords": [],
   "author": "CristoAMH <cristoamh@gmail.com>",
@@ -36,7 +36,7 @@
     "vite-plugin-dts": "^1.1.1"
   },
   "dependencies": {
-    "myfirstpackage": "^1.0.0",
+    "myfirstpackage": "^0.0.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   }
