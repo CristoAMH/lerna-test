@@ -1,0 +1,43 @@
+{
+  "name": "mySecondPackage",
+  "version": "0.0.0",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "CristoAMH <cristoamh@gmail.com>",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "types": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CristoAMH/lerna-test.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "tsc & vite build"
+  },
+  "bugs": {
+    "url": "https://github.com/CristoAMH/lerna-test/issues"
+  },
+  "homepage": "https://github.com/CristoAMH/lerna-test#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.31",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "@vitejs/plugin-react": "^1.3.2",
+    "vite": "^2.9.8",
+    "vite-plugin-dts": "^1.1.1"
+  },
+  "dependencies": {
+    "myfirstpackage": "^1.0.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

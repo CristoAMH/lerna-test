@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "build": "lerna run build"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.2.0",
+    "@types/jest": "^27.5.0",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "lerna": "^4.0.0",
+    "ts-jest": "^28.0.1",
+    "vite": "^2.9.8"
+  },
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
